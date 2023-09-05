@@ -16,7 +16,7 @@ const db = mongoose.connection;
 
 //checking successfully connected 
 db.once('open' , function(){
-    console.log('susscessfully connected to the database of rapidNotes');
+    console.log('susscessfully connected to the database of ecommerceApi');
 })
 
 module.exports = db;
